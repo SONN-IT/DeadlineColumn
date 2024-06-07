@@ -1,0 +1,1 @@
+browser.customColumns.add("deadlineColumn", browser.i18n.getMessage("columnName"), "subject");

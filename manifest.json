@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "short_name": "DDC",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.0.0",
+  "author": "Dominik, Pflegerl, Łukasz Kosson",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "DeadlineDetectorColumn@SONN",
+      "strict_min_version": "115.10.0",
+      "strict_max_version": "*"
+    }
+  },
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "icons": {
+    "48": "icon48.png"
+  },
+  "default_locale": "en",
+  "experiment_apis": {
+    "customColumns": {
+      "schema": "api/DeadlineDetectorColumn/schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "customColumns"
+          ]
+        ],
+        "script": "api/DeadlineDetectorColumn/script.js"
+      }
+    }
+  }
+}

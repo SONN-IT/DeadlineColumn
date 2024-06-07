@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Deadline Column"
+  },
+  "extensionDescription": {
+    "message": "Detects deadlines from the mail subject and adds them to a column in the message list panel"
+  },
+  "columnName": {
+    "message": "Deadline"
+  },
+  "noDeadlineText": {
+    "message": "No Deadline"
+  }
+}

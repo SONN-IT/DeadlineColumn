@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Frist Spalte"
+  },
+  "extensionDescription": {
+    "message": "Erkennt Fristen aus dem Mail-Betreff und fügt sie einer Spalte im Nachrichtenlistenfeld hinzu"
+  },
+  "columnName": {
+    "message": "Frist"
+  },
+  "noDeadlineText": {
+    "message": "Keine Frist"
+  }
+}
