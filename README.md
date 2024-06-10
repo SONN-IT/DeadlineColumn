@@ -1,11 +1,10 @@
-Full address column
-===================
+# Deadline Detector
+---
 
-This add-on adds two new columns called "Sender (@)" and "Recipient (@)" in 
-message list containing full, raw addresses of sender and recipient instead 
-of just names like in default columns.
+Deadline Detector is a Thunderbird extension, which detects deadlines from the mail subject and adds them to a column in the message list panel
 
-This add-on is reimplementation of "Show address only" which stopped working 
-in Thunderbird 78. This add-on source was originally based on "SFreq" by 
-Jorg K. Version working with Supernova update is based on examples provided by 
-John Bieling.
+Based on the full-address-column extension by [Łukasz Kosson](https://github.com/lkosson/full-address-column). 
+
+## Compatibility
+
+✅ Thunderbird 115 Supernova
