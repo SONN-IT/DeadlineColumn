@@ -98,7 +98,7 @@ var customColumns = class extends ExtensionCommon.ExtensionAPI {
 
           ThreadPaneColumns.addCustomColumn(id, {
             name: name,
-            hidden: false,
+            hidden: true,
             icon: false,
             resizable: true,
             sortable: "bySortKey",
