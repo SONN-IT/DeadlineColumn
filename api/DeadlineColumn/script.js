@@ -74,7 +74,7 @@ var customColumns = class extends ExtensionCommon.ExtensionAPI {
               case 0:
                 if(hasNoDeadlinePhrase) {
                   return {
-                    text: noDeadlineText,
+                    text: "keine Frist",
                     unixTime: new Date("5200-01-01T00:00:00Z").getTime() / 1000
                   }
                 } else {
