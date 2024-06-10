@@ -18,7 +18,7 @@
     ]
   },
   "icons": {
-    "48": "icon48.png"
+    "48": "images/icon48.png"
   },
   "default_locale": "en",
   "experiment_apis": {
