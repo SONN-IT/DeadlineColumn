@@ -5,6 +5,8 @@ Deadline Detector is a Thunderbird extension, which detects deadlines from the m
 
 Based on the full-address-column extension by [Łukasz Kosson](https://github.com/lkosson/full-address-column). 
 
+Icon by <a href="https://www.flaticon.com/free-icons/calendar" title="calendar icons">Calendar icons created by Freepik - Flaticon</a>
+
 ## Compatibility
 
 ✅ Thunderbird 115 Supernova
