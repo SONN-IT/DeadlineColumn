@@ -14,11 +14,11 @@ jobs:
       uses: actions/checkout@v3
     - name: Build .xpi file
       run: |
-        zip -r DeadlineDetectorColumn@SONN.xpi * -x "*.git*"
+        zip -r DeadlineColumn@SONN.xpi * -x "*.git*"
     - uses: actions/upload-artifact@v3
       with:
         name: xpi
-        path: DeadlineDetectorColumn@SONN.xpi
+        path: DeadlineColumn@SONN.xpi
   create-release:
     name: Create GitHub Release
     needs: build-linux
@@ -31,6 +31,6 @@ jobs:
       - uses: ncipollo/release-action@v1
         with:
           draft: false
-          artifacts: "xpi/DeadlineDetectorColumn@SONN.xpi"
+          artifacts: "xpi/DeadlineColumn@SONN.xpi"
           token: ${{secrets.GITHUB_TOKEN}}
           makeLatest: true
