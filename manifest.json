@@ -3,8 +3,8 @@
   "name": "__MSG_extensionName__",
   "short_name": "DC",
   "description": "__MSG_extensionDescription__",
-  "version": "1.0.0",
-  "author": "Dominik, Pflegerl, Łukasz Kosson",
+  "version": "1.1.0",
+  "author": "Dominik Pflegerl, Łukasz Kosson",
   "browser_specific_settings": {
     "gecko": {
       "id": "DeadlineColumn@SONN",
